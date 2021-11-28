@@ -61,7 +61,7 @@ function redireccionar() {
 }
 
 function redireccionarLogin() {
-    window.location.href = "ingresar.html"
+    window.location.href = "Ingresar.html"
 }
 
 //REGISTRO USUARIO
