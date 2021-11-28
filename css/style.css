@@ -1,0 +1,2905 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0; }
+  
+  .dropdown__ul--bg {
+    background-color: #fafafa; }
+  
+  .dropdown-item {
+    color: white; }
+  
+  .navDiv__width {
+    width: 100vw; }
+  
+  .navDiv__color {
+    background-image: url(../img-publicidades/abstract.jpg);
+    background-size: cover; }
+  
+  .body__bg--background {
+    background: url(https://www.expedientepolitico.com.ar/wp-content/uploads/2020/05/balon-pinchado.jpg) no-repeat fixed;
+    background-size: cover; }
+  
+  .error__div--margin {
+    margin-top: 200px; }
+  
+  .error__div--propiedades {
+    font-family: Roboto, arial,sans-serif;
+    font-size: 120px;
+    color: white; }
+  
+  @media only screen and (min-width: 768px) {
+    .dropdown__li--display {
+      display: none; }
+    .mainNav__div--width {
+      width: 764px;
+      padding-right: 0px;
+      padding-left: 0px; } }
+    
+    .dropLogueado{
+      font-size: 20px;
+      color: white;
+      font-family: Roboto,arial,sans-serif;
+      font-weight: 400;
+    }
+    .ecuZindex{
+      z-index: -50;
+    }
+
+    .dropdown-toggle::after {
+      color: white;
+  }
+
+  .dropdown-item:hover{
+    background-color: white;
+  }
+
+  .dropdown-header{
+    font-size: 20px;
+  }
+  
+  .dropdown-item{
+    color:#efb810;
+  }
+
+  #btnLogOut{
+    font-size: 18px;
+  }
+
+  #btnLogOut:hover{
+    color: #efb810;
+    border: none;
+  }
+
+  #iNombreBad{
+    position:relative;
+    top:12px;
+    right: 14px;
+    color: red;
+    display: none;
+  }
+
+  #iApellidoBad{
+    position:relative;
+    top:12px;
+    right: 14px;
+    color: red;
+    display: none;
+  }
+
+  #iTelBad{
+    position:relative;
+    top:12px;
+    right: 14px;
+    color: red;
+    display: none;
+  }
+
+  #iEmlBad{
+    position:relative;
+    top:12px;
+    right: 14px;
+    color: red;
+    display: none;
+  }
+
+  #iNombreOk{
+    position:relative;
+    top:12px;
+    right: 14px;
+    color: green;
+    display: none;
+  }
+
+  #iApellidoOk{
+    position:relative;
+    top:12px;
+    right: 14px;
+    color: green;
+    display: none;
+  }
+
+  #iTelOk{
+    position:relative;
+    top:12px;
+    right: 14px;
+    color: green;
+    display: none;
+  }
+
+  #iEmlOk{
+    position:relative;
+    top:12px;
+    right: 14px;
+    color: green;
+    display: none;
+  }
+
+  .iptIncorrecto{
+    border-bottom: 3px solid red !important;
+    color: red !important;
+  }
+
+  .iptCorrecto{
+    border-bottom: 3px solid green !important;
+    color: green !important;
+  }
+  
+  
+  .containerInputContacto{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .errorEnviar{
+    background-color: firebrick;
+    color: white;
+    font-size: 14px;
+    padding: 12px;
+    margin-top: 20px;
+    display: none;
+  }
+
+  .iconError{
+    color: white !important;
+    font-size: 12px !important;
+  }
+
+  .msgErrorNombre, .msgErrorApellido, .msgErrorTelefono, .msgErrorEmail{
+    color:red;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .navSecundary {
+      display: none; } }
+  
+  @media only screen and (max-width: 992px) {
+    .navSecundary__a--fontsize {
+      font-size: 16px;
+      padding: 8px 6px; }
+    .mainNav__div--width {
+      width: 586px; } }
+  
+  /* mobile first */
+  @media only screen and (max-width: 768px) {
+    * {
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      list-style-type: none; }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: Roboto Slab, arial,serif;
+      font-size: 20px; }
+    .navbar-brand {
+      font-size: 35px;
+      font-family: Roboto Slab, arial, serif; }
+    .nav-item {
+      transition: 0.2s;
+      border-radius: 4px; }
+    .nav-item:hover a {
+      color: #efb810 !important; }
+    .escudo__size {
+      width: auto;
+      height: 50px;
+      transition: scale 0.5s; }
+    .fas {
+      margin-right: 10px; }
+    .nav-link {
+      font-size: 14px; }
+    .btnUser {
+      font-size: 14px;
+      padding: 5px 5px; }
+    .btnCerrarSesion {
+      font-family: Roboto slab, arial, serif;
+      font-size: 12px;
+      border: none;
+      padding-left: 8px;
+      background-color: #fafafa; }
+    .fa-sign-out-alt {
+      margin-right: 12px;
+      position: relative;
+      left: 4px; }
+    .bg {
+      background-color: #0f3386; }
+    .tsize {
+      width: 100%;
+      height: auto; }
+    .principal__div--propiedades {
+      margin-left: 0;
+      border-top: 2px solid #0e3386;
+      border-bottom: 2px solid #0e3386; }
+    .principal__pais {
+      font-family: Roboto,Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 900;
+      color: #0e3386; }
+    .principal__img {
+      width: 100vw; }
+    .principal__titulo {
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 100vw;
+      font-size: 36px; }
+    .principal__bajada {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 18px; }
+    .principal__redaccion {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      font-weight: 300; }
+    .rectangulo {
+      color: black;
+      width: 100vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-bottom: 2rem; }
+    .rectangulo__body {
+      position: relative;
+      bottom: 70px;
+      font-family: Roboto Slab, arial, sans-serif;
+      font-weight: 900;
+      font-size: 16px;
+      margin: 18px 0px; }
+    .img__card {
+      width: 100%;
+      min-height: 210px; }
+    .redondo {
+      height: 60px;
+      width: auto;
+      border-radius: 40px;
+      position: relative;
+      bottom: 60px; }
+    .pais p {
+      background-color: #0e3386;
+      display: inline;
+      font-family: Roboto, arial, sans-serif;
+      font-weight: 900;
+      font-size: 10px;
+      padding: 1px 4px;
+      color: white;
+      position: absolute; }
+    .autor {
+      background-color: #0e3386;
+      color: white;
+      padding-left: 60px;
+      position: relative;
+      font-family: Roboto,arial,sans-serif;
+      font-size: 14px;
+      background-image: url(../img-publicidades/bg-copa.jpg);
+      background-size: 300px; }
+    .rectangulo__titulo {
+      font-size: 24px;
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 700; }
+    .rectangulo__bajada {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      margin: 0px 0px;
+      font-size: 16px; }
+    .redaccion {
+      color: #0e3386;
+      font-family: Roboto,arial,sans-serif;
+      font-weight: bold;
+      margin-top: 12px;
+      border-bottom: 2px solid #0e3386;
+      font-size: 12px; }
+    .rectangulo:hover .rectangulo__titulo {
+      text-decoration: underline; }
+    .margin__row--size {
+      margin: 32px 0px 32px 0px; }
+    .margin-bot {
+      margin-bottom: 32px; }
+    .horizontal__img {
+      width: 100%;
+      height: auto; }
+    .horizontal__div--propiedades {
+      width: 100%;
+      height: 180px;
+      margin-left: 8px; }
+    .horizontal__pais {
+      font-family: Roboto,arial,sans-serif;
+      font-weight: 900;
+      color: #0e3386;
+      font-size: 12px;
+      margin: 0px; }
+    .horizontal__titulo {
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 4px; }
+    .horizontal__bajada {
+      font-family: Roboto,Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 2px; }
+    .horizontal__redaccion {
+      font-family: Roboto,arial,sans-serif;
+      font-weight: bold;
+      margin-top: 12px;
+      color: #0e3386;
+      font-size: 12px;
+      margin-top: 5px; }
+    .tsize {
+      width: 100%;
+      height: auto; }
+    .grupoA__caption--propiedades {
+      color: #0e3386;
+      padding-top: 0px; }
+    .grupoB__caption--propiedades {
+      color: #0e3386; }
+    .tabla__grupos--img {
+      width: 20px;
+      height: auto;
+      position: relative;
+      bottom: 2px;
+      margin-right: 4px; }
+    .rectanguloBig {
+      width: 100%;
+      height: auto;
+      background-image: linear-gradient(#0e3386, #081d50, #0a286e, #051131);
+      color: white;
+      border-radius: 50px 0px 50px 0px; }
+    .rectanguloBig__body {
+      padding-left: 16px; }
+    .rectanguloBig__img {
+      width: 100%;
+      border-radius: 50px 0px 0px 0px; }
+    .rectanguloBig__titulo {
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 700;
+      font-size: 36px; }
+    .rectanguloBig__bajada {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 400;
+      font-size: 16px; }
+    .rectanguloBig__redaccion {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      color: white; }
+    .rectanguloSmall {
+      width: 240px;
+      border-bottom: 2px solid #0e3386;
+      display: none; }
+    .rectanguloSmall__pais p {
+      font-family: Roboto,arial,sans-serif;
+      font-weight: bold;
+      color: white;
+      font-size: 10px;
+      position: absolute; }
+    .rectanguloSmall__img--card {
+      width: 100%;
+      height: 141px; }
+    .rectanguloSmall__titulo {
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 700;
+      font-size: 22px; }
+    .rectanguloSmall__bajada {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 400;
+      font-size: 14px; }
+    .rectanguloSmall__redaccion {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 0px;
+      color: #0e3386; }
+    .galeria__background {
+      background-image: url(../img-publicidades/abstract.jpg);
+      background-size: cover;
+      width: 100%;
+      height: auto; }
+    .videoPrincipal {
+      width: 100%; }
+    .videos__video {
+      font-family: Roboto Slab,arial;
+      font-weight: 900;
+      font-size: 24px;
+      color: white;
+      border-bottom: 2px solid white;
+      width: 100%;
+      margin-bottom: 5px; }
+    .videos__sugerencias--p {
+      display: none; }
+    .videos__goles {
+      display: none; }
+    .videos__sugerencias {
+      display: none; }
+    .videoSecundario {
+      display: none; }
+    .columnaizq__posicion {
+      position: relative;
+      top: 10px; }
+    .columnadrc__posicion {
+      display: none; }
+    .seccion__h3--propiedades {
+      border-bottom: 3px solid #0e3386;
+      font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      font-weight: 900; }
+    .lomasleido__borde {
+      border-bottom: 3px solid #0e3386; }
+    .votacion {
+      display: none; }
+    .publicidad__fibertel {
+      display: none; }
+    .footer__ul {
+      display: flex;
+      width: 100%;
+      padding-left: 0px;
+      text-align: center;
+      justify-content: center; }
+    /* inicio sesión */
+    div.inicioSesión {
+      width: 100vw;
+      height: 100vh;
+      background-color: white;
+      padding: 20px;
+      margin: auto;
+      border-radius: 5px;
+      text-align: center; }
+    .loginText {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 20px; }
+    .form__button--propiedades {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      background-color: white;
+      border: solid 1px #ccc;
+      border-radius: 4px; }
+    input[type=password] {
+      width: 100%;
+      height: 40px;
+      border: solid 1px #ccc;
+      border-radius: 4px;
+      transition: 0.5s; }
+    input[type=password]:focus {
+      border: 1px solid #1048b2;
+      outline: none; }
+    input[type=email] {
+      width: 100%;
+      height: 40px;
+      border: solid 1px #ccc;
+      border-radius: 4px;
+      transition: 0.5s; }
+    input[type=email]:focus {
+      border: 1px solid #1048b2;
+      outline: none; }
+    input[type=submit] {
+      width: 100%;
+      padding: 5px 12px;
+      background-color: #1048b2;
+      border: solid 1px #1048b2;
+      border-radius: 4px;
+      color: white; }
+    input:focus[type=submit] {
+      cursor: pointer; }
+    a.olvide {
+      color: #00b4ff;
+      text-decoration: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-weight: 300; }
+    a.olvide:focus {
+      color: black; }
+    .recordarOlvidar {
+      display: flex; }
+    .olvideMobile {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end; }
+    div.check {
+      width: 50%;
+      display: flex;
+      justify-content: flex-start; }
+    .check input {
+      margin-right: 5px; }
+    a.ingresar {
+      color: #00b4ff;
+      text-decoration: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-weight: 300; }
+    a.ingresar:focus {
+      color: black; }
+    a.logo h1 {
+      color: #1048b2;
+      text-decoration: none;
+      font-family: Roboto Slab,Arial, Helvetica, sans-serif;
+      font-size: 30px; }
+    .logo {
+      text-decoration: none; }
+    span {
+      font-family: Roboto, Arial,sans-serif;
+      font-weight: 300; }
+    input[placeholder="Contraseña *"] {
+      font-family: Roboto, Arial,sans-serif;
+      font-weight: 300; }
+    input[placeholder="E-mail *"] {
+      font-family: Roboto, Arial,sans-serif;
+      font-weight: 300; }
+    span.footer {
+      font-size: 12px; }
+    input {
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 16px; }
+    .form__button--propiedades {
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 16px; }
+    .inicioFallido {
+      color: red;
+      margin: 0px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    #inputEmail, #inputPsw {
+      padding: 5px; }
+    /* registrarse */
+    div.contenedor {
+      width: 100vw;
+      height: 100vh;
+      background-color: white;
+      border-radius: 4px;
+      margin: auto;
+      text-align: center;
+      padding: 20px; }
+    h2.registrar b {
+      font-size: 20px;
+      font-family: Roboto,arial,sans-serif; }
+    span {
+      font-family: Roboto, Arial,sans-serif;
+      font-weight: 300; }
+    a.registrarse {
+      font-family: Roboto, arial, sans-serif;
+      font-weight: 300; }
+    .form__button--propiedades {
+      width: 100%;
+      font-size: 12px;
+      font-family: Roboto, arial, sans-serif;
+      font-weight: 300;
+      padding: 5px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: white; }
+    .form__button--propiedades {
+      border: 1px solid #1048b2; }
+    input[placeholder="Email *"] {
+      font-family: Roboto, arial, sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      width: 100%;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: 0.5s; }
+    input:hover {
+      border: 1px solid #1048b2; }
+    .btnRegistrarme {
+      border: 1px solid #1048b2;
+      background-color: #1048b2;
+      color: white;
+      padding: 5px 12px; }
+    #registroEmail, #registroPsw {
+      padding: 5px; }
+    #registroPsw {
+      margin-top: 16px; }
+    .registroFallido {
+      color: red;
+      margin: 0px;
+      margin-left: 4px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    .emailFallido {
+      color: red;
+      margin: 0px;
+      margin-left: 4px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    .emailNoValido {
+      color: red;
+      margin: 0px;
+      margin-left: 4px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    .pswFallido {
+      color: red;
+      margin: 0px;
+      margin-left: 4px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    .fa-exclamation-triangle {
+      color: red;
+      margin-right: 5px;
+      font-size: 12px; }
+    a.registrarse {
+      text-decoration: none;
+      color: #00b4ff; }
+    a.registrarse:hover {
+      color: black; }
+    a.logo h1 {
+      color: #1048b2;
+      font-family: Roboto Slab,Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      text-decoration: none; }
+    /* fin registrarse */
+    /* restablecer */
+    div.restablecer {
+      width: 100vw;
+      height: 100vh;
+      background-color: white;
+      border-radius: 4px;
+      margin: auto;
+      text-align: center;
+      padding: 30px; }
+    input[placeholder="correo electrónico *"] {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: Roboto, arial, sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      height: 40px;
+      transition: 0.5s; }
+    .inputRestablecer {
+      padding-left: 10px; }
+    input:hover {
+      border: 1px solid #1048b2; }
+    .butRes {
+      width: 100%;
+      border: 1px solid #1048b2;
+      border-radius: 4px;
+      font-family: Roboto, arial, sans-serif;
+      font-size: 16px;
+      padding: 5px 12px;
+      background-color: #1048b2;
+      color: white; }
+    .butRes:hover {
+      cursor: pointer;
+      outline: none;
+      border: 1px solid #1048b2; }
+    span {
+      font-family: Roboto, arial, sans-serif;
+      font-weight: 300; }
+    a.logo h1 {
+      font-family: Roboto Slab, aril, serif;
+      font-size: 30px;
+      color: #1048b2; }
+    .restablecerText {
+      font-family: Roboto,arial,sans-serif; }
+    .restablecerFallido {
+      color: red;
+      margin: 0px;
+      margin-left: 4px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    /* fin restablecer */
+    /* Suscribirse */
+    .headerSuscripción {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url(../img-publicidades/abstract.jpg);
+      color: white;
+      width: 100%;
+      height: auto; }
+    .headerSuscripción a {
+      color: white;
+      text-decoration: none; }
+    .headerSuscripción a h1 {
+      font-size: 50px; }
+    .titulo:hover {
+      color: white; }
+    .imgContenedor {
+      width: 100%;
+      height: auto;
+      background: url(https://cdn.pixabay.com/photo/2017/11/05/19/41/stadium-2921657_960_720.jpg) no-repeat center;
+      background-size: cover;
+      margin-bottom: 48px; }
+    div.subsSus {
+      width: 100%;
+      height: auto;
+      padding: 30px 20px 300px;
+      background-color: rgba(14, 51, 134, 0.5);
+      text-align: center;
+      color: white; }
+    .subSus {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 50px; }
+    .pSus {
+      font-size: 16px;
+      font-weight: bold; }
+    .digitalBasico {
+      width: 300px;
+      height: 800px;
+      background-color: black;
+      color: white;
+      font-family: Roboto, arial, sans-serif;
+      text-align: center;
+      border-radius: 4px;
+      box-shadow: 0 0 10px black; }
+    .digitalBasico__titulo {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 20px;
+      margin-bottom: 50px;
+      padding: 24px; }
+    .digitalBasico__iconos i {
+      font-size: 70px;
+      margin: 16px 12px; }
+    .digitalBasico__precio {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 40px;
+      font-weight: bold; }
+    .digitalBasico__características {
+      text-align: left;
+      margin-left: 10px;
+      font-size: 14px; }
+    .digitalClub {
+      width: 300px;
+      height: 800px;
+      background-color: black;
+      color: white;
+      font-family: Roboto, arial, sans-serif;
+      text-align: center;
+      border-radius: 4px;
+      box-shadow: 0 0 10px black; }
+    .digitalClub__titulo {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 20px;
+      margin-bottom: 50px;
+      padding: 24px; }
+    .digitalClub__iconos i {
+      font-size: 70px;
+      margin: 16px 12px; }
+    .digitalClub__precio {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 40px;
+      font-weight: bold; }
+    .digitalClub__características {
+      text-align: left;
+      margin-left: 10px;
+      font-size: 14px; }
+    .digitalDiario {
+      width: 300px;
+      height: 800px;
+      background-color: black;
+      color: white;
+      font-family: Roboto, arial, sans-serif;
+      text-align: center;
+      border-radius: 4px;
+      margin-bottom: 50px;
+      box-shadow: 0 0 10px black; }
+    .digitalDiario__titulo {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 20px;
+      margin-bottom: 50px;
+      padding: 24px; }
+    .digitalDiario__iconos i {
+      font-size: 39px;
+      margin: 16px 12px; }
+    .digitalDiario__precio {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 40px;
+      font-weight: bold; }
+    .digitalDiario__características {
+      text-align: left;
+      margin-left: 10px;
+      font-size: 14px; }
+    .digitalBasico input {
+      background-color: yellow;
+      padding: 10px;
+      border: 1px solid yellow;
+      border-radius: 4px;
+      width: 90%;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 50px;
+      margin-top: 25px; }
+    .digitalBasico input:hover {
+      cursor: pointer;
+      background-color: #ffea2e; }
+    .digitalClub input {
+      background-color: yellow;
+      padding: 10px;
+      border: 1px solid yellow;
+      border-radius: 4px;
+      width: 90%;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 50px;
+      margin-top: 25px; }
+    .digitalClub input:hover {
+      cursor: pointer;
+      background-color: #ffea2e; }
+    .digitalDiario input {
+      background-color: yellow;
+      padding: 10px;
+      border: 1px solid yellow;
+      border-radius: 4px;
+      width: 90%;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 50px;
+      margin-top: 25px; }
+    .digitalDiario input:hover {
+      cursor: pointer;
+      background-color: #ffea2e; }
+    .diario {
+      margin-bottom: 15px; }
+    .empSus {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-color: white;
+      font-size: 18px;
+      text-align: center;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      border-radius: 10px; }
+    fieldset {
+      border-radius: 10px;
+      padding: 20px 10px;
+      background-color: white;
+      color: black;
+      border: 1px solid black; }
+    legend {
+      text-align: center;
+      border-radius: 10px;
+      border-color: black;
+      background-color: white;
+      color: black;
+      padding: 5px; }
+    .fa-check-square {
+      color: green;
+      margin-left: 5px;
+      margin-right: 2px; }
+    .mailEmpresa {
+      color: #00b4ff; }
+    .redes__posicion ul {
+      width: 100%; }
+    .footer__ul {
+      display: flex;
+      width: 100%;
+      padding-left: 0px;
+      text-align: center;
+      justify-content: center; }
+    /* Fin suscribirse */
+    /* contacto */
+    .backCon {
+      background-color: #fefefe; }
+    .headerConPri {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url(../img-publicidades/abstract.jpg);
+      height: auto; }
+    .headerConPri a {
+      color: white;
+      text-decoration: none; }
+    .headerConPri a h1 {
+      font-family: Roboto Slab,Arial,serif;
+      font-size: 30px; }
+    .headerConSec {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(14, 51, 134, 0.5);
+      color: white;
+      width: 100%;
+      height: 200px; }
+    .headerConSec h2 {
+      font-size: 30px; }
+    .pHeaderSec {
+      font-size: 12px;
+      text-align: center; }
+    .headerCon {
+      background: url(https://images.pexels.com/photos/1171084/pexels-photo-1171084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center;
+      background-size: cover; }
+    .formCon {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 30px; }
+    .infoCon {
+      width: 100%;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      justify-content: space-evenly; }
+    input[placeholder="Nombre"] {
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-bottom: 3px solid #efefef;
+      color: #afafaf;
+      transition: 0.5s; }
+    input[placeholder="Nombre"]:focus {
+      border: none;
+      outline: none;
+      border-bottom: 3px solid #0f3386;
+      color: black; }
+    input[placeholder="Apellido"] {
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-bottom: 3px solid #efefef;
+      color: #afafaf;
+      transition: 0.5s; }
+    input[placeholder="Apellido"]:focus {
+      border: none;
+      outline: none;
+      border-bottom: 3px solid #0f3386;
+      color: black; }
+    input[placeholder="Teléfono"] {
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-bottom: 3px solid #efefef;
+      color: #afafaf;
+      transition: 0.5s; }
+    input[placeholder="Teléfono"]:focus {
+      border: none;
+      outline: none;
+      border-bottom: 3px solid #0f3386;
+      color: black; }
+    .emailCon {
+      width: 100%;
+      border: none !important;
+      border-bottom: 3px solid #efefef  !important;
+      color: #afafaf !important;}
+    .emailCon:focus {
+      border: none;
+      outline: none;
+      border-radius: 0px  !important;
+      border-bottom: 3px solid #0f3386 !important;
+      color: black; }
+    .sendCon {
+      width: 100px !important;
+      background-color: white !important;
+      color: #0f3386 !important;
+      transition: 0.3s;
+      margin-top: 20px; }
+    .textareaCon {
+      width: 95%;
+      border: 3px solid #efefef;
+      resize: none;
+      transition: 0.3 s; }
+    .textareaCon:focus {
+      width: 95%;
+      border: 3px solid #0f3386;
+      outline: none; }
+    .sendCon:hover {
+      width: 100px !important;
+      background-color: #0f3386 !important;
+      color: white !important; }
+    .textCon {
+      font-size: 14px; }
+    .textCon i {
+      font-size: 30px;
+      color: #0f3386; }
+    span iframe {
+      width: 100%;
+      height: auto; }
+    .footer__ul {
+      display: flex;
+      width: 100%;
+      padding-left: 0px;
+      text-align: center;
+      justify-content: center; }
+    /* fin contacto */
+    /* estadísticas */
+    .headerEst {
+      width: 100%;
+      height: auto;
+      background: url(../img-publicidades/abstract.jpg); }
+    .headerEst h1 {
+      color: white;
+      font-family: Roboto Slab, arial, serif;
+      font-size: 30px;
+      text-align: center; }
+    .headerEst a {
+      text-decoration: none; }
+    .flexEst {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto; }
+    .flexEst h2 {
+      text-align: center;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 20px;
+      margin-bottom: 30px;
+      margin-top: 30px; }
+    .grupoA {
+      color: black;
+      border: none;
+      padding: 0px;
+      text-align: center;
+      margin-bottom: 50px;
+      width: 100%;
+      font-size: 14px; }
+    table.grupoA caption {
+      background-color: #0f3386;
+      color: white;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 18px;
+      width: 100%; }
+    .grupoA .par {
+      height: 40px;
+      background-image: radial-gradient(circle farthest-corner at 10% 20%, #0f3386 0%, #14488c 90%);
+      color: white; }
+    .grupoA td {
+      height: 40px;
+      background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+    table.grupoB caption {
+      background-color: #0f3386;
+      color: white;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 18px;
+      width: 100%; }
+    .grupoB {
+      text-align: center;
+      border: none;
+      padding: 0px;
+      margin-bottom: 50px;
+      width: 100%; }
+    .grupoB .par {
+      height: 40px;
+      background-image: radial-gradient(circle farthest-corner at 10% 20%, #0f3386 0%, #14488c 90%);
+      color: white; }
+    .grupoB td {
+      height: 40px;
+      background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+    .datosCompetición {
+      text-align: center;
+      background-color: white;
+      color: black;
+      border: none;
+      margin-bottom: 50px;
+      width: 100%; }
+    table.datosCompetición caption {
+      background-color: #0f3386;
+      color: white;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 18px;
+      width: 100%; }
+    .datosCompetición tr th {
+      border: none;
+      font-weight: bold; }
+    .datosCompetición td {
+      border: none;
+      color: #0f3386; }
+    table.goleadores {
+      width: auto;
+      border: none;
+      width: 100%;
+      margin-bottom: 30px; }
+    table.goleadores caption {
+      background-color: #0f3386;
+      color: white;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 18px;
+      width: 100%; }
+    .goleadores th {
+      border: none; }
+    .goleadores td {
+      border: none;
+      text-align: center; }
+    .parGoleadores {
+      background-color: #efefef; }
+    table.asistidores caption {
+      background-color: #0f3386;
+      color: white;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 18px;
+      width: 100%; }
+    table.asistidores {
+      width: 100%;
+      border: none;
+      margin-right: none;
+      margin-bottom: 30px; }
+    .asistidores th {
+      border: none; }
+    .asistidores td {
+      border: none;
+      text-align: center; }
+    .parAsistidores {
+      background-color: #efefef; }
+    .footer__ul {
+      display: flex;
+      width: 100%;
+      padding-left: 0px;
+      text-align: center;
+      justify-content: center; }
+    .pie {
+      background: url(../img-publicidades/abstract.jpg) no-repeat;
+      background-size: cover;
+      color: white;
+      width: 100vw;
+      margin-top: 2em;
+      margin-bottom: 0px; }
+    .text-footer {
+      margin: 0px;
+      padding: 0px;
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      text-align: center; }
+    .pie i {
+      color: white;
+      font-size: 32px;
+      padding: 8px;
+      text-align: center; }
+    .fab {
+      font-size: 12px;
+      width: 50px; }
+    .footer {
+      padding-left: 8px;
+      font-size: 16px;
+      font-family: Roboto,arial,serif;
+      width: 100%;
+      margin: 0 auto;
+      padding: 16px;
+      text-align: center; }
+    .footer__p {
+      padding-left: 0px;
+      font-size: 12px; }
+    .redes__posicion {
+      text-align: center; }
+    .footerDerechos {
+      margin-bottom: 0px; }
+    /* fin estadísticas */
+    /* paises */
+    .pais__nombre {
+      font-family: Ubuntu,arial,sans-serif;
+      font-size: 48px;
+      font-weight: 100;
+      position: relative;
+      top: 45px; }
+    .pais__escudo {
+      width: 236px;
+      height: auto; }
+    .pais__redondo {
+      width: 150px;
+      height: 150px; }
+    .pais__img {
+      width: 100%;
+      height: auto; }
+    .pais__p {
+      font-size: 18px;
+      margin-top: 16px; }
+    .pais__players--bg {
+      width: 100vw;
+      height: auto; } }
+  
+  /* vista tablet and desktop */
+  @media only screen and (min-width: 768px) {
+    * {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 16px;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      text-decoration: none; }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: Roboto Slab, arial,serif;
+      font-size: 18px; }
+    .navbar-brand {
+      font-size: 50px;
+      font-family: Roboto Slab, arial, serif; }
+    .nav-item {
+      transition: 0.2s;
+      border-radius: 4px; }
+    .nav-item a {
+      font-size: 20px; }
+    .btnUser {
+      padding: 7px 5px;
+      display: none; }
+    .btnCerrarSesion {
+      font-family: Roboto slab, arial, serif;
+      font-size: 1em;
+      border: none;
+      padding-left: 2px; }
+    .fa-sign-out-alt {
+      margin: 0px;
+      position: relative;
+      left: 4px; }
+    .dropdown-container {
+      position: relative; }
+    .dropdown-container ul {
+      position: absolute;
+      max-height: 0px;
+      overflow: hidden;
+      transition: all 0.3s;
+      list-style-type: none; }
+    .dropdown-container ul li {
+      padding: 10px; }
+    .dropdown-container ul.show {
+      max-height: 65px; }
+    .escudo__size {
+      width: auto;
+      height: 50px;
+      transition: scale 0.5s; }
+    .nav-item:hover a {
+      color: #efb810 !important; }
+    .escudo__size:hover {
+      transform: scale(1.3, 1.3); }
+    .Publicidad__div--heigth {
+      height: 230px; }
+    .Publicidad__a--size {
+      height: 230px;
+      width: 100%; }
+    .Publicidad__a--background {
+      background: url(../img-publicidades/banner-adidas.jpg) no-repeat center;
+      background-size: cover; }
+    .nPrincipal__div--background {
+      background: url(../posts/equipos/grupoA/Argentina/imgArg/argentina-campeona.jpg) no-repeat center;
+      background-size: cover; }
+    .nPrincipal__div--size {
+      width: 100%;
+      height: 400px; }
+    .nPrincipal__h2--propiedades {
+      color: white;
+      margin: 0px;
+      font-size: 40px; }
+    .fas {
+      margin-right: 10px; }
+    .fa-chevron-down {
+      font-size: 16px;
+      margin-left: 4px; }
+    .userNav:active {
+      color: white; }
+    .main__size {
+      width: 1155px;
+      margin: 0 auto;
+      background-color: white; }
+    .principal__div--propiedades {
+      margin-left: 1em;
+      border-top: 2px solid #0e3386;
+      border-bottom: 2px solid #0e3386; }
+    .principal__pais {
+      font-family: Roboto,Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 900;
+      color: #0e3386; }
+    .principal__img {
+      width: 577.5px; }
+    .principal__titulo {
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 700;
+      font-size: 36px; }
+    .principal__bajada {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 18px; }
+    .principal__redaccion {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      font-weight: 300; }
+    .rectangulo {
+      color: black;
+      width: 320px;
+      height: 375px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-bottom: 2rem; }
+    .rectangulo__body {
+      position: relative;
+      bottom: 70px;
+      font-family: Roboto Slab, arial, sans-serif;
+      font-weight: 900;
+      font-size: 16px;
+      margin: 18px 0px; }
+    .img__card {
+      width: 100%;
+      min-height: 210px; }
+    .redondo {
+      height: 60px;
+      width: auto;
+      border-radius: 40px;
+      position: relative;
+      bottom: 60px; }
+    .pais p {
+      background-color: #0e3386;
+      display: inline;
+      font-family: Roboto, arial, sans-serif;
+      font-weight: 900;
+      font-size: 10px;
+      padding: 1px 4px;
+      color: white;
+      position: absolute; }
+    .autor {
+      background-color: #0e3386;
+      color: white;
+      padding-left: 60px;
+      position: relative;
+      font-family: Roboto,arial,sans-serif;
+      font-size: 14px;
+      background-image: url(../img-publicidades/bg-copa.jpg);
+      background-size: 300px; }
+    .rectangulo__titulo {
+      font-size: 24px;
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 700; }
+    .rectangulo__bajada {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      margin: 0px 0px;
+      font-size: 14px; }
+    .redaccion {
+      color: #0e3386;
+      font-family: Roboto,arial,sans-serif;
+      font-weight: bold;
+      margin-top: 12px;
+      border-bottom: 2px solid #0e3386;
+      font-size: 12px; }
+    .rectangulo:hover .rectangulo__titulo {
+      text-decoration: underline; }
+    .margin__row--size {
+      margin: 32px 0px 32px 0px; }
+    .margin-bot {
+      margin-bottom: 32px; }
+    .horizontal__img {
+      width: 310px;
+      height: 180px; }
+    .horizontal__div--propiedades {
+      width: 310px;
+      height: 180px;
+      margin-left: 8px;
+      border-right: 2px solid #0e3386; }
+    .horizontal__pais {
+      font-family: Roboto,arial,sans-serif;
+      font-weight: 900;
+      color: #0e3386;
+      font-size: 12px;
+      margin: 0px; }
+    .horizontal__titulo {
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 4px; }
+    .horizontal__bajada {
+      font-family: Roboto,Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      margin-bottom: 2px; }
+    .horizontal__redaccion {
+      font-family: Roboto,arial,sans-serif;
+      font-weight: bold;
+      margin-top: 12px;
+      color: #0e3386;
+      font-size: 12px;
+      margin-top: 5px; }
+    .tsize {
+      width: 100%;
+      height: auto; }
+    .grupoA__caption--propiedades {
+      color: #0e3386;
+      padding-top: 0px; }
+    .grupoB__caption--propiedades {
+      color: #0e3386; }
+    .tabla__grupos--img {
+      width: 20px;
+      height: auto;
+      position: relative;
+      bottom: 2px;
+      margin-right: 4px; }
+    .rectanguloBig {
+      width: 577px;
+      height: 687px;
+      background-image: linear-gradient(#0e3386, #081d50, #0a286e, #051131);
+      color: white;
+      border-radius: 50px 0px 50px 0px; }
+    .rectanguloBig__body {
+      padding-left: 16px; }
+    .rectanguloBig__img {
+      width: 100%;
+      border-radius: 50px 0px 0px 0px; }
+    .rectanguloBig__titulo {
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 700;
+      font-size: 36px; }
+    .rectanguloBig__bajada {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 400;
+      font-size: 16px; }
+    .rectanguloBig__redaccion {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      color: white; }
+    .rectanguloSmall {
+      width: 240px;
+      border-bottom: 2px solid #0e3386; }
+    .rectanguloSmall__pais p {
+      font-family: Roboto,arial,sans-serif;
+      font-weight: bold;
+      color: white;
+      font-size: 10px;
+      position: absolute; }
+    .rectanguloSmall__img--card {
+      width: 100%;
+      height: 141px; }
+    .rectanguloSmall__titulo {
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 700;
+      font-size: 22px; }
+    .rectanguloSmall__bajada {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 400;
+      font-size: 14px; }
+    .rectanguloSmall__redaccion {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 0px;
+      color: #0e3386; }
+    .galeria__background {
+      background-image: url(../img-publicidades/abstract.jpg);
+      background-size: contain;
+      width: 1155px;
+      height: 580px; }
+    .videoPrincipal {
+      width: 640px; }
+    .videos__video {
+      font-family: Roboto Slab,arial;
+      font-weight: 900;
+      font-size: 24px;
+      color: white;
+      border-bottom: 2px solid white;
+      width: 640px;
+      margin-bottom: 5px; }
+    .videos__sugerencias--p {
+      font-family: Roboto Slab,arial;
+      font-weight: 900;
+      font-size: 24px;
+      color: white;
+      border-bottom: 2px solid white;
+      width: 640px;
+      margin: 16px 0 0 0; }
+    .videos__goles {
+      font-family: Roboto Slab,arial;
+      font-weight: 900;
+      font-size: 24px;
+      color: white;
+      border-bottom: 2px solid white;
+      margin: 0px;
+      width: 422px;
+      position: relative;
+      top: 8px; }
+    .videos__sugerencias {
+      width: 210px;
+      height: 100px;
+      margin-top: 5px; }
+    .videoSecundario {
+      width: 210px;
+      height: 100px; }
+    .columnaizq__posicion {
+      position: relative;
+      top: 10px; }
+    .columnadrc__posicion {
+      position: relative;
+      top: 15px;
+      height: 321px;
+      margin-top: 0; }
+    .cardXs {
+      border: none;
+      width: 188px;
+      padding: 0px;
+      height: 272px;
+      position: relative; }
+    .cardXs__numero {
+      position: absolute;
+      top: 0;
+      right: 6px;
+      color: white;
+      font-size: 24px;
+      font-family: Roboto,arial,sans-serif;
+      font-weight: 900; }
+    .cardXs__img {
+      min-height: 125.32px;
+      width: 100%; }
+    .cardXs__pais {
+      font-family: Roboto,arial,sans-serif;
+      font-weight: 900;
+      font-size: 12px;
+      padding: 1px 4px;
+      color: #0e3386;
+      margin: 0px; }
+    .cardXs__titulo {
+      font-size: 16px;
+      font-family: Ubuntu,arial,sans-serif;
+      font-weight: 700;
+      margin: 0px; }
+    .cardXs__redaccion {
+      color: #0e3386;
+      font-family: Roboto,arial,sans-serif;
+      font-weight: bold;
+      margin-top: 12px;
+      font-size: 12px; }
+    .seccion__h3--propiedades {
+      border-bottom: 3px solid #0e3386;
+      font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      font-weight: 900; }
+    .lomasleido__borde {
+      border-bottom: 3px solid #0e3386; }
+    .votacion {
+      width: 320px;
+      height: 337px;
+      background: url(../posts/equipos/grupoA/Argentina/imgArg/messi-votacion.jpg) no-repeat;
+      background-size: cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    .votacion__pregunta {
+      text-align: center;
+      font-family: Ubuntu,arial, sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      padding: 8px 16px; }
+    .votacion__button {
+      display: flex;
+      justify-content: space-between;
+      border-radius: 20px;
+      height: 40px;
+      width: 80%;
+      border: 1px solid #ddd;
+      margin-bottom: 16px;
+      opacity: 0.5;
+      margin: 0 auto 0 auto; }
+    .votacion__button2 {
+      display: flex;
+      justify-content: space-between;
+      border-radius: 20px;
+      height: 40px;
+      width: 80%;
+      border: 1px solid #ddd;
+      margin-bottom: 16px;
+      opacity: 0.5;
+      margin: 0 auto 0 auto;
+      position: relative;
+      bottom: 50px; }
+    .votacion__button span {
+      text-align: center;
+      font-family: Roboto,arial, sans-serif;
+      font-weight: 900;
+      font-size: 16px; }
+    .votacion__button2 span {
+      text-align: center;
+      font-family: Roboto,arial, sans-serif;
+      font-weight: 900;
+      font-size: 16px; }
+    .progreso1 {
+      width: 156px;
+      height: 40px;
+      background-color: rgba(14, 51, 134, 0.7);
+      border-radius: 20px 0 0 20px;
+      position: relative;
+      top: 53px;
+      left: 32px; }
+    .progreso2 {
+      width: 39px;
+      height: 40px;
+      background-color: rgba(14, 51, 134, 0.7);
+      border-radius: 20px 0 0 20px;
+      position: relative;
+      top: 4px;
+      left: 32px; }
+    .votacion__votos {
+      text-align: center; }
+    .votacion__votos span {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+      margin-left: 6px; }
+    .votacion__button:hover {
+      border: solid 1px #ddd; }
+    .votacion__button2:hover {
+      border: solid 1px #ddd; }
+    .publicidad__fibertel {
+      width: 320px;
+      height: 446px;
+      background-image: url(../img-publicidades/fibertel.jpg);
+      background-size: contain; }
+    .pie {
+      background: url(../img-publicidades/abstract.jpg) no-repeat;
+      background-size: cover;
+      color: white;
+      width: 100vw;
+      margin-top: 2em;
+      margin-bottom: 0px; }
+    .text-footer {
+      margin: 0px;
+      padding: 0px;
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      text-align: center; }
+    .pie i {
+      color: white;
+      font-size: 32px;
+      padding: 8px;
+      text-align: center; }
+    .fab {
+      font-size: 12px;
+      width: 50px; }
+    .footer {
+      padding-left: 8px;
+      font-size: 16px;
+      font-family: Roboto,arial,serif;
+      width: 100%;
+      margin: 0 auto;
+      padding: 16px;
+      text-align: center; }
+    .footer__p {
+      padding-left: 0px;
+      font-size: 12px; }
+    .redes__posicion {
+      text-align: center; }
+    .footerDerechos {
+      margin-bottom: 0px; }
+    .footer__ul {
+      width: 190px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      padding-left: 0px; }
+    /* <!-- Inicio css de inicio sesión --> */
+    .fondoLogin {
+      background: url(https://images.pexels.com/photos/5553102/pexels-photo-5553102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500;) no-repeat center fixed;
+      background-size: cover;
+      background-origin: border-box; }
+    .alignLogin {
+      display: flex;
+      height: 100vh;
+      align-items: center; }
+    div.inicioSesión {
+      width: 400px;
+      height: auto;
+      background-color: white;
+      padding: 20px;
+      margin: auto;
+      border-radius: 5px;
+      text-align: center; }
+    .recordarOlvidar {
+      display: flex;
+      width: 100%;
+      justify-content: space-between; }
+    .olvideMobile {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end; }
+    div.check {
+      width: 50%;
+      display: flex;
+      justify-content: flex-start; }
+    .check input {
+      position: relative;
+      top: 2px; }
+    .check input {
+      margin-right: 5px; }
+    .loginText {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 20px; }
+    .form__button--propiedades {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      background-color: white;
+      border: solid 1px #ccc;
+      border-radius: 4px; }
+    .form__button--propiedades:hover {
+      border: solid 1px #1048b2;
+      cursor: pointer; }
+    input[type=password] {
+      width: 95%;
+      height: 40px;
+      border: solid 1px #ccc;
+      border-radius: 4px;
+      transition: 0.5s; }
+    input[type=password]:hover {
+      border: 1px solid #1048b2; }
+    input[type=password]:focus {
+      border: 1px solid #1048b2; }
+    input[type=email] {
+      width: 95%;
+      height: 40px;
+      border: solid 1px #ccc;
+      border-radius: 4px;
+      transition: 0.5s; }
+    input[type=email]:hover {
+      border: 1px solid #1048b2; }
+    input[type=email]:focus {
+      border: 1px solid #1048b2; }
+    input[type=submit] {
+      width: 100%;
+      padding: 5px 12px;
+      background-color: #1048b2;
+      border: solid 1px #1048b2;
+      border-radius: 4px;
+      color: white; }
+    input:hover[type=submit] {
+      cursor: pointer; }
+    a.olvide {
+      color: #00b4ff;
+      text-decoration: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-weight: 300; }
+    a.olvide:hover {
+      color: black; }
+    div.check {
+      display: flex;
+      width: auto; }
+    a.ingresar {
+      color: #00b4ff;
+      text-decoration: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-weight: 300; }
+    a.ingresar:hover {
+      color: black; }
+    a.logo h1 {
+      color: #1048b2;
+      text-decoration: none;
+      font-family: Roboto Slab,Arial, Helvetica, sans-serif;
+      font-size: 30px; }
+    span {
+      font-family: Roboto, Arial,sans-serif;
+      font-weight: 300; }
+    input[placeholder="Contraseña *"] {
+      font-family: Roboto, Arial,sans-serif;
+      font-weight: 300; }
+    input[placeholder="E-mail *"] {
+      font-family: Roboto, Arial,sans-serif;
+      font-weight: 300; }
+    span.footer {
+      font-size: 12px; }
+    input {
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 16px; }
+    button {
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 16px; }
+    .inicioFallido {
+      color: red;
+      margin: 0px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    #inputEmail, #inputPsw {
+      padding: 5px; }
+    /* <!-- Fin inicio sesión css --> */
+    /* registrarse */
+    .fondoRegistrar {
+      background: url(https://images.pexels.com/photos/5553103/pexels-photo-5553103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center fixed;
+      background-size: cover;
+      background-origin: content-box; }
+    .alignReg {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center; }
+    div.contenedor {
+      width: 400px;
+      height: auto;
+      background-color: white;
+      border-radius: 4px;
+      margin: auto;
+      text-align: center;
+      padding: 20px; }
+    h2.registrar b {
+      font-size: 20px;
+      font-family: Roboto,arial,sans-serif; }
+    span {
+      font-family: Roboto, Arial,sans-serif;
+      font-weight: 300; }
+    a.registrarse {
+      font-family: Roboto, arial, sans-serif;
+      font-weight: 300; }
+    button {
+      width: 100%;
+      font-size: 16px;
+      font-family: Roboto, arial, sans-serif;
+      font-weight: 300;
+      padding: 5px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: white; }
+    button:hover {
+      border: 1px solid #1048b2; }
+    input[placeholder="Email *"] {
+      font-family: Roboto, arial, sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      width: 95%;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: 0.5s; }
+    input:hover {
+      border: 1px solid #1048b2; }
+    .btnRegistrarme {
+      border: 1px solid #1048b2;
+      background-color: #1048b2;
+      color: white;
+      padding: 5px 12px; }
+    #registroEmail, #registroPsw {
+      padding: 5px; }
+    #registroPsw {
+      margin-top: 16px; }
+    .registroFallido {
+      color: red;
+      margin: 0px;
+      margin-left: 4px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    .emailFallido {
+      color: red;
+      margin: 0px;
+      margin-left: 4px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    .emailNoValido {
+      color: red;
+      margin: 0px;
+      margin-left: 4px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    .pswFallido {
+      color: red;
+      margin: 0px;
+      margin-left: 4px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    .fa-exclamation-triangle {
+      color: red;
+      margin-right: 5px;
+      font-size: 12px; }
+    a.registrarse {
+      text-decoration: none;
+      color: #00b4ff; }
+    a.registrarse:hover {
+      color: black; }
+    a.logo {
+      color: #1048b2;
+      font-family: Roboto Slab,Arial, Helvetica, sans-serif;
+      font-size: 30px; }
+    /* fin registrarse */
+    /* restablecer */
+    * {
+      box-sizing: border-box;
+      padding: 0px;
+      margin: 0px; }
+    .fondoRestablecer {
+      background: url(https://images.pexels.com/photos/5553090/pexels-photo-5553090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat fixed center;
+      background-size: cover;
+      background-origin: content-box; }
+    .alignRestablecer {
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      align-items: center; }
+    div.restablecer {
+      width: 400px;
+      height: auto;
+      background-color: white;
+      border-radius: 4px;
+      margin: auto;
+      text-align: center;
+      padding: 30px; }
+    input[placeholder="correo electrónico *"] {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: Roboto, arial, sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      height: 40px;
+      transition: 0.5s; }
+    input:hover {
+      border: 1px solid #1048b2; }
+    .inputRestablecer {
+      padding-left: 10px; }
+    .butRes {
+      width: 100%;
+      border: 1px solid #1048b2;
+      border-radius: 4px;
+      font-family: Roboto, arial, sans-serif;
+      font-size: 16px;
+      padding: 5px 12px;
+      background-color: #1048b2;
+      color: white; }
+    .butRes:hover {
+      cursor: pointer;
+      outline: none;
+      border: 1px solid #1048b2; }
+    span {
+      font-family: Roboto, arial, sans-serif;
+      font-weight: 300; }
+    .logo {
+      font-family: Roboto Slab, aril, serif;
+      font-size: 30px;
+      color: #1048b2;
+      text-decoration: none; }
+    .restablecerText {
+      font-family: Roboto,arial,sans-serif; }
+    .restablecerFallido {
+      color: red;
+      margin: 0px;
+      margin-left: 4px;
+      font-size: 12px;
+      text-align: left;
+      display: none; }
+    /* fin restablecer */
+    /* Suscribirse */
+    .headerSuscripción {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url(../img-publicidades/abstract.jpg);
+      color: white;
+      width: 100%;
+      height: auto; }
+    .headerSuscripción a {
+      color: white;
+      text-decoration: none; }
+    .headerSuscripción a h1 {
+      font-size: 50px; }
+    .titulo:hover {
+      color: white; }
+    .imgContenedor {
+      width: 100%;
+      height: auto;
+      background: url(https://cdn.pixabay.com/photo/2017/11/05/19/41/stadium-2921657_960_720.jpg) no-repeat center;
+      background-size: cover;
+      margin-bottom: 48px; }
+    div.subsSus {
+      width: 100%;
+      height: auto;
+      padding: 30px 20px 300px;
+      background-color: rgba(14, 51, 134, 0.5);
+      text-align: center;
+      color: white; }
+    .subSus {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 50px; }
+    .pSus {
+      font-size: 16px;
+      font-weight: bold; }
+    .digitalBasico {
+      width: 300px;
+      height: 800px;
+      background-color: black;
+      color: white;
+      font-family: Roboto, arial, sans-serif;
+      text-align: center;
+      border-radius: 4px;
+      box-shadow: 0 0 10px black; }
+    .digitalBasico__titulo {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 20px;
+      margin-bottom: 50px;
+      padding: 24px; }
+    .digitalBasico__iconos i {
+      font-size: 70px;
+      margin: 16px 12px; }
+    .digitalBasico__precio {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 40px;
+      font-weight: bold; }
+    .digitalBasico__características {
+      text-align: left;
+      margin-left: 10px;
+      font-size: 14px; }
+    .digitalClub {
+      width: 300px;
+      height: 800px;
+      background-color: black;
+      color: white;
+      font-family: Roboto, arial, sans-serif;
+      text-align: center;
+      border-radius: 4px;
+      box-shadow: 0 0 10px black; }
+    .digitalClub__titulo {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 20px;
+      margin-bottom: 50px;
+      padding: 24px; }
+    .digitalClub__iconos i {
+      font-size: 70px;
+      margin: 16px 12px; }
+    .digitalClub__precio {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 40px;
+      font-weight: bold; }
+    .digitalClub__características {
+      text-align: left;
+      margin-left: 10px;
+      font-size: 14px; }
+    .digitalDiario {
+      width: 300px;
+      height: 800px;
+      background-color: black;
+      color: white;
+      font-family: Roboto, arial, sans-serif;
+      text-align: center;
+      border-radius: 4px;
+      margin-bottom: 50px;
+      box-shadow: 0 0 10px black; }
+    .digitalDiario__titulo {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 20px;
+      margin-bottom: 50px;
+      padding: 24px; }
+    .digitalDiario__iconos i {
+      font-size: 39px;
+      margin: 16px 12px; }
+    .digitalDiario__precio {
+      font-family: 'Times New Roman', Times, serif,arial,serif;
+      font-size: 40px;
+      font-weight: bold; }
+    .digitalDiario__características {
+      text-align: left;
+      margin-left: 10px;
+      font-size: 14px; }
+    .digitalBasico input {
+      background-color: yellow;
+      padding: 10px;
+      border: 1px solid yellow;
+      border-radius: 4px;
+      width: 90%;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 50px;
+      margin-top: 25px; }
+    .digitalBasico input:hover {
+      cursor: pointer;
+      background-color: #ffea2e; }
+    .digitalClub input {
+      background-color: yellow;
+      padding: 10px;
+      border: 1px solid yellow;
+      border-radius: 4px;
+      width: 90%;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 50px;
+      margin-top: 25px; }
+    .digitalClub input:hover {
+      cursor: pointer;
+      background-color: #ffea2e; }
+    .digitalDiario input {
+      background-color: yellow;
+      padding: 10px;
+      border: 1px solid yellow;
+      border-radius: 4px;
+      width: 90%;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 50px;
+      margin-top: 25px; }
+    .digitalDiario input:hover {
+      cursor: pointer;
+      background-color: #ffea2e; }
+    .diario {
+      margin-bottom: 15px; }
+    .empSus {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-color: white;
+      font-size: 18px;
+      text-align: center;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      border-radius: 10px; }
+    fieldset {
+      border-radius: 10px;
+      padding: 20px 10px;
+      background-color: white;
+      color: black;
+      border: 1px solid black; }
+    legend {
+      text-align: center;
+      border-radius: 10px;
+      border-color: black;
+      background-color: white;
+      color: black;
+      padding: 5px; }
+    .fa-check-square {
+      color: green;
+      margin-left: 5px;
+      margin-right: 2px; }
+    .mailEmpresa {
+      color: #00b4ff; }
+    .pie {
+      background: url(../img-publicidades/abstract.jpg) no-repeat;
+      background-size: cover;
+      color: white;
+      width: 100vw;
+      margin-top: 2em;
+      margin-bottom: 0px; }
+    .text-footer {
+      margin: 0px;
+      padding: 0px;
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      text-align: center; }
+    .pie i {
+      color: white;
+      font-size: 32px;
+      padding: 8px;
+      text-align: center; }
+    .fab {
+      font-size: 12px;
+      width: 50px; }
+    .footer {
+      padding-left: 8px;
+      font-size: 16px;
+      font-family: Roboto,arial,serif;
+      width: 100%;
+      margin: 0 auto;
+      padding: 16px;
+      text-align: center; }
+    .footer__p {
+      padding-left: 0px;
+      font-size: 12px; }
+    .redes__posicion {
+      text-align: center; }
+    .footerDerechos {
+      margin-bottom: 0px; }
+    .footer__ul {
+      width: 190px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      padding-left: 0px; }
+    /* Fin suscribirse */
+    /* contacto */
+    .backCon {
+      background-color: #fefefe; }
+    .headerConPri {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url(../img-publicidades/abstract.jpg);
+      height: auto; }
+    .headerConPri a {
+      color: white;
+      text-decoration: none; }
+    .headerConPri a h1 {
+      font-family: Roboto Slab,Arial,serif;
+      font-size: 50px; }
+    .headerConSec {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(14, 51, 134, 0.5);
+      color: white;
+      width: 100%;
+      height: 300px; }
+    .headerConSec h2 {
+      font-size: 50px; }
+    .pHeaderSec {
+      font-size: 20px; }
+    .headerCon {
+      background: url(https://images.pexels.com/photos/1171084/pexels-photo-1171084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center;
+      background-size: cover; }
+    .contenedorCon {
+      display: flex;
+      justify-content: space-around; 
+      margin-bottom: 100px;}
+    .formCon {
+      width: 30%;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      padding: 30px; }
+    .infoCon {
+      width: 30%;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      justify-content: space-evenly; }
+    input[placeholder="Nombre"] {
+      width: 95%;
+      height: 40px;
+      border: none;
+      border-bottom: 3px solid #efefef;
+      color: #afafaf;
+      transition: 0.5s; }
+    input[placeholder="Nombre"]:focus {
+      border: none;
+      outline: none;
+      border-bottom: 3px solid #0f3386;
+      color: black; }
+    input[placeholder="Apellido"] {
+      width: 95%;
+      height: 40px;
+      border: none;
+      border-bottom: 3px solid #efefef;
+      color: #afafaf;
+      transition: 0.5s; }
+    input[placeholder="Apellido"]:focus {
+      border: none;
+      outline: none;
+      border-bottom: 3px solid #0f3386;
+      color: black; }
+    input[placeholder="Teléfono"] {
+      width: 95%;
+      height: 40px;
+      border: none;
+      border-bottom: 3px solid #efefef;
+      color: #afafaf;
+      transition: 0.5s; }
+    input[placeholder="Teléfono"]:focus {
+      border: none;
+      outline: none;
+      border-bottom: 3px solid #0f3386;
+      color: black; }
+    .emailCon {
+      width: 100%;
+      border: none !important;
+      border-bottom: 3px solid #efefef !important;
+      color: #afafaf;
+      transition: 0.5s; }
+    .emailCon:focus {
+      border: none;
+      outline: none;
+      border-radius: 0px  !important;
+      border-bottom: 3px solid #0f3386 !important;
+      color: black; }
+    .sendCon {
+      width: 100px !important;
+      background-color: white !important;
+      color: #0f3386 !important;
+      transition: 0.3s; }
+    .textareaCon {
+      width: 95%;
+      border: 3px solid #efefef;
+      resize: none;
+      transition: 0.3s; 
+      padding: 0px;
+      text-align: start;}
+    .textareaCon:focus {
+      width: 95%;
+      border: 3px solid #0f3386;
+      outline: none; }
+      textarea[placeholder="Este campo debe estar rellenado."]{
+        text-align: start;
+        font-size: 20px;
+        color: black !important;
+      }
+    .emptyTextArea{
+      width: 95%;
+      border: 3px solid red;
+      resize: none;
+      transition: 0.3s; }
+    }     
+    .sendCon:hover {
+      width: 100px !important;
+      background-color: #0f3386 !important;
+      color: white !important; }
+    .textCon {
+      font-size: 18px; }
+    .textCon i {
+      font-size: 30px;
+      color: #0f3386; }
+    span iframe {
+      width: 100%; }
+    .pie {
+      background: url(../img-publicidades/abstract.jpg) no-repeat;
+      background-size: cover;
+      color: white;
+      width: 100vw;
+      margin-top: 2em;
+      margin-bottom: 0px; }
+    .text-footer {
+      margin: 0px;
+      padding: 0px;
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      text-align: center; }
+    .pie i {
+      color: white;
+      font-size: 32px;
+      padding: 8px;
+      text-align: center; }
+    .fab {
+      font-size: 12px;
+      width: 50px; }
+    .footer {
+      padding-left: 8px;
+      font-size: 16px;
+      font-family: Roboto,arial,serif;
+      width: 100%;
+      margin: 0 auto;
+      padding: 16px;
+      text-align: center; }
+    .footer__p {
+      padding-left: 0px;
+      font-size: 12px; }
+    .redes__posicion {
+      text-align: center; }
+    .footerDerechos {
+      margin-bottom: 0px; }
+    .footer__ul {
+      width: 190px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      padding-left: 0px; }
+    /* fin contacto */
+    /* estadísticas */
+    .headerEst {
+      width: 100%;
+      height: auto;
+      background: url(../img-publicidades/abstract.jpg); }
+    .headerEst h1 {
+      color: white;
+      font-family: Roboto Slab, arial, serif;
+      font-size: 50px;
+      text-align: center; }
+    .gridEst {
+      display: grid;
+      width: 100%;
+      grid-template-columns: 1;
+      grid-template-rows: 3; }
+    .flexEst {
+      display: flex;
+      flex-direction: column;
+      width: 900px;
+      margin: 50px auto; }
+    .flexEst h2 {
+      text-align: center;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 30px;
+      margin-bottom: 30px; }
+    table tr td img {
+      width: 16px;
+      height: 16px; }
+    .grupoA {
+      color: black;
+      border: none;
+      padding: 0px;
+      text-align: center;
+      margin-bottom: 50px; }
+    table.grupoA caption {
+      background-color: #0f3386;
+      color: white;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 20px; }
+    .grupoA .par {
+      height: 40px;
+      background-image: radial-gradient(circle farthest-corner at 10% 20%, #0f3386 0%, #14488c 90%);
+      color: white; }
+    .grupoA td {
+      height: 40px;
+      background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+    table.grupoB caption {
+      background-color: #0f3386;
+      color: white;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 20px; }
+    .grupoB {
+      text-align: center;
+      border: none;
+      padding: 0px;
+      margin-bottom: 50px; }
+    .grupoB .par {
+      height: 40px;
+      background-image: radial-gradient(circle farthest-corner at 10% 20%, #0f3386 0%, #14488c 90%);
+      color: white; }
+    .grupoB td {
+      height: 40px;
+      background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+    .datosCompetición {
+      text-align: center;
+      background-color: white;
+      color: black;
+      border: none;
+      margin-bottom: 50px; }
+    table.datosCompetición caption {
+      background-color: #0f3386;
+      color: white;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 20px; }
+    .datosCompetición tr th {
+      border: none;
+      font-weight: bold; }
+    .datosCompetición td {
+      border: none;
+      color: #0f3386; }
+    .flexGolesAsistencias {
+      display: flex;
+      width: 900px;
+      flex-direction: row;
+      justify-content: space-between; }
+    table.goleadores {
+      width: auto;
+      border: none; }
+    table.goleadores caption {
+      background-color: #0f3386;
+      color: white;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 20px; }
+    .goleadores th {
+      border: none; }
+    .goleadores td {
+      border: none;
+      text-align: left; }
+    .parGoleadores {
+      background-color: #efefef; }
+    table.asistidores caption {
+      background-color: #0f3386;
+      color: white;
+      font-family: Roboto Slab,arial,serif;
+      font-size: 20px; }
+    table.asistidores {
+      width: auto;
+      border: none;
+      margin-right: none; }
+    .asistidores th {
+      border: none; }
+    .asistidores td {
+      border: none; }
+    .parAsistidores {
+      background-color: #efefef; }
+    .pie {
+      background: url(../img-publicidades/abstract.jpg) no-repeat;
+      background-size: cover;
+      color: white;
+      width: 100vw;
+      margin-top: 2em;
+      margin-bottom: 0px; }
+    .text-footer {
+      margin: 0px;
+      padding: 0px;
+      font-family: Roboto,arial,sans-serif;
+      font-size: 12px;
+      text-align: center; }
+    .pie i {
+      color: white;
+      font-size: 32px;
+      padding: 8px;
+      text-align: center; }
+    .fab {
+      font-size: 12px;
+      width: 50px; }
+    .footer {
+      padding-left: 8px;
+      font-size: 16px;
+      font-family: Roboto,arial,serif;
+      width: 100%;
+      margin: 0 auto;
+      padding: 16px;
+      text-align: center; }
+    .footer__p {
+      padding-left: 0px;
+      font-size: 12px; }
+    .redes__posicion {
+      text-align: center; }
+    .footerDerechos {
+      margin-bottom: 0px; }
+    .footer__ul {
+      width: 190px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      padding-left: 0px; }
+    /* fin estadísticas */
+    /* sección paises */
+    .pais__redondo {
+      width: 100px;
+      height: 100px; }
+    .pais__nombre {
+      font-family: Ubuntu,arial,sans-serif;
+      font-size: 80px;
+      font-weight: 100; }
+    .pais__escudo {
+      width: 300px;
+      height: auto;
+      position: relative;
+      bottom: 35px; }
+    .pais__img {
+      width: 580px;
+      height: auto; }
+    .pais__p {
+      font-family: Roboto,arial,sans-serif;
+      font-size: 18px;
+      font-weight: 400; }
+    .pais__players--bg {
+      width: 1080px;
+      height: 1080px; }
+    .headerPaises h1 {
+      font-family: Roboto Slab,arial,serif;
+      font-size: 50px;
+      color: white; }
+    .flexCardsPaises {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin: auto;
+      margin-left: 550px;
+      height: 1500px;
+      margin-top: 30px; }
+    .Flag {
+      width: 50%; }
+    .Flag__img {
+      width: 284px;
+      height: 177px; }
+    .cardPaises {
+      display: flex;
+      max-width: 50%;
+      height: auto;
+      box-shadow: 0 0 10px grey;
+      margin-top: 20px;
+      background-image: linear-gradient(135deg, #0f3386 0%, #14488c 90%);
+      transition: 0.3s; }
+    .cardPaises:hover {
+      box-shadow: 0 0 20px #141414;
+      cursor: pointer; }
+    .cardPaises:hover h2 {
+      text-decoration: underline; }
+    .cardPaises:hover h1 {
+      text-decoration: underline; }
+    .bodyCardPaises {
+      width: 50%; }
+    .bodyCardPaises__h2 {
+      font-size: 25px;
+      color: white; }
+    .bodyCardPaises__p {
+      color: white; }
+    .cardPaises__h1 {
+      font-size: 25px;
+      color: white; }
+    .cardPaises__img {
+      width: 50%;
+      height: auto; }
+    .footPaises {
+      width: 100%;
+      background-color: #0f3386;
+      text-align: center; }
+    .redesPaises {
+      display: flex;
+      justify-content: center; }
+    .redesPaises__i {
+      color: white;
+      font-size: 50px;
+      padding: 10px; }
+    .footPaises__p {
+      color: white; }
+    /* fin paises */
+    /* articulos */
+    .gridNoticia {
+      display: grid;
+      grid-template-areas: 'head head'
+   'main main'
+   'foot foot'; }
+    .headerNoticia {
+      grid-area: head; }
+    .mainNoticia {
+      grid-area: main; }
+    .footerNoticia {
+      grid-area: foot; }
+    .headerNoticia {
+      background-image: linear-gradient(135deg, #0f3386 0%, #14488c 90%);
+      width: 100vw;
+      height: 120px; }
+    .flexHeaderNoticia {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 42%;
+      margin: auto;
+      align-items: center;
+      height: 120px; }
+    .flexHeaderNoticia h1 {
+      color: white;
+      font-size: 50px; }
+    .flexHeaderNoticia ul {
+      display: flex; }
+    .flexHeaderNoticia ul li a {
+      color: white;
+      padding: 10px;
+      font-size: 18px; }
+    .flexHeaderNoticia ul li a:hover {
+      background-color: #0a2674;
+      color: white;
+      border-radius: 4px;
+      transition: 0.2s; }
+    .flexnoticia {
+      width: 800px;
+      margin: auto;
+      height: auto;
+      margin-bottom: 30px; }
+    .flexnoticia h2 {
+      font-size: 50px; }
+    .textNotA p, span {
+      font-size: 16px; }
+    .fa-thumbs-up {
+      font-size: 30px;
+      color: #0f3386;
+      padding: 10px;
+      transition: .5s; }
+    .fa-thumbs-up:hover {
+      transform: rotate(20deg);
+      cursor: pointer; }
+    .footerNoticia {
+      background-color: #0f3386;
+      width: 100vw;
+      height: auto;
+      text-align: center; }
+    .footerNoticia p {
+      color: white;
+      font-size: 18px;
+      font-family: Roboto,arial,sans-serif; }
+    .footerNoticia ul {
+      display: flex;
+      justify-content: center; }
+    .footerNoticia i {
+      color: white;
+      font-size: 40px;
+      padding: 10px; }
+    /* fin articulos */
+    .bg {
+      background-color: #0f3386; } }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1155px) {
+    .main__size {
+      width: 992px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white; }
+    .principal__div--propiedades {
+      width: 476px;
+      height: 298px; }
+    .principal__img {
+      width: 500px;
+      height: 300px; }
+    .principal__titulo {
+      font-size: 30px; }
+    .galeria__background {
+      background-image: url(../img-publicidades/abstract.jpg);
+      background-size: cover;
+      width: 992px;
+      height: 572px; }
+    .videos__video {
+      width: 560px; }
+    .videoPrincipal {
+      width: 560px; }
+    .videos__sugerencias {
+      width: 182px; }
+    .videos__sugerencias--p {
+      width: 560px; }
+    .videos__goles {
+      width: 397px; }
+    .videoSecundario {
+      width: 194px;
+      height: 100px; }
+    .over__flow {
+      overflow: auto; }
+    .horizontal__img {
+      width: 280px; }
+    .horizontal__div--propiedades {
+      width: 270px; }
+    .horizontal__pais {
+      font-size: 10px; }
+    .horizontal__titulo {
+      font-size: 16px; }
+    .horizontal__redaccion {
+      font-size: 10px;
+      margin: 0px; }
+    .rectanguloBig {
+      width: 496px; }
+    .cardXs {
+      width: 162px; }
+    .progreso1 {
+      position: relative;
+      top: 54px;
+      left: 32px; }
+    .footer {
+      padding-left: 8px;
+      font-size: 16px;
+      font-family: Roboto,arial,serif;
+      width: 100%;
+      margin: 0 auto;
+      padding: 16px; }
+    /* paises */
+    .pais__img {
+      width: 490px;
+      height: auto; }
+    .pais__p {
+      font-size: 14px; }
+    .pais__players--bg {
+      width: 100vw;
+      height: auto; } }
+  
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .main__size {
+      width: 768px; }
+    .principal__div--propiedades {
+      width: 360px;
+      height: 298px; }
+    .principal__img {
+      width: 380px;
+      height: 300px; }
+    .principal__titulo {
+      font-size: 24px; }
+    .principal__bajada {
+      font-size: 16px; }
+    .galeria__background {
+      background-image: url(../img-publicidades/abstract.jpg);
+      background-size: cover;
+      width: 760px;
+      height: 572px; }
+    .videos__video {
+      width: 427px; }
+    .videoPrincipal {
+      width: 427px; }
+    .videos__sugerencias--p {
+      width: 427px; }
+    .videos__sugerencias {
+      width: 139px; }
+    .videos__goles {
+      width: 295px; }
+    .videoSecundario {
+      width: 145px; }
+    .horizontal__img {
+      width: 384px;
+      height: 201px; }
+    .horizontal__div--propiedades {
+      width: 382px;
+      height: 210px; }
+    .horizontal__pais {
+      font-size: 10px; }
+    .horizontal__titulo {
+      font-size: 24px; }
+    .horizontal__bajada {
+      font-size: 14px; }
+    .horizontal__redaccion {
+      font-size: 10px;
+      margin: 0px; }
+    .rectanguloBig {
+      width: 768px;
+      height: 770px;
+      margin-top: 32px; }
+    .rectanguloSmall {
+      margin-bottom: 2rem; }
+    .progreso1 {
+      position: relative;
+      top: 54px;
+      left: 32px; }
+    .publicidad__fibertel {
+      width: 320px;
+      height: 337px;
+      background-image: url(../img-publicidades/fibertel.jpg);
+      background-size: cover; }
+    .footer {
+      padding-left: 8px;
+      font-size: 16px;
+      font-family: Roboto,arial,serif;
+      width: 100%;
+      margin: 0 auto;
+      padding: 16px; }
+    /* paises */
+    .pais__img {
+      width: 100%;
+      height: auto; }
+    .pais__p {
+      font-size: 18px;
+      margin-top: 16px; }
+    .pais__players--bg {
+      width: 100vw;
+      height: auto; } }
+      .iptIncorrecto{
+        border-bottom: 3px solid red !important;
+        color: red !important;
+      }
+    
+      .iptCorrecto{
+        border-bottom: 3px solid green !important;
+        color: green !important;
+      }
+      
+  
+  @media only screen and (max-width: 768px) {
+    .main__size {
+      width: 100vw; }
+    .dropdown-item {
+      text-align: center; }
+    .btnUser {
+      padding: 7px 5px;
+      display: none; } }
+  
+  @media only screen and (max-width: 576px) {
+    .rectangulo {
+      margin-bottom: 16px;
+      height: auto; }
+    .rectanguloBig {
+      width: 100%; }
+    .votacion {
+      display: none; }
+    .publicidad__fibertel {
+      display: none; }
+    .horizontal__div--propiedades {
+      display: none; }
+    .horizontal__img {
+      display: none; }
+    .lomasleido__borde {
+      display: none; }
+    .btnUser {
+      font-size: 14px;
+      padding: 0px; }
+    .dropdown-menu {
+      width: 50px; }
+    .pais__nombre {
+      font-family: Ubuntu,arial,sans-serif;
+      font-size: 40px;
+      font-weight: 100;
+      position: relative;
+      top: 15px; }
+    .pais__escudo {
+      display: none; }
+    .pais__redondo {
+      width: 100px;
+      height: 100px; }
+    .pais__img {
+      width: 100%;
+      height: auto; }
+    .pais__p {
+      font-size: 18px;
+      margin-top: 16px; }
+    .pais__players--bg {
+      width: 100vw;
+      height: auto; } }
+  

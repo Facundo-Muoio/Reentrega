@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+	<!-- Fuentes -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:wght@500;900&display=swap" rel="stylesheet">	
+	<!-- Fin fuentes -->
+	<!-- inicio Link -->
+	<script src="https://kit.fontawesome.com/4dc73a2bed.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../css/style.css">
+	<!-- fin Link -->
+</head>
+<body class="backCon">
+	<div class="headerCon">
+		<header>
+			<div class="headerConPri">
+			<!--Logo-->
+			<a href="../index.html"><h1>GOL</h1></a>
+			<!--fin logo-->
+			</div>
+			<div class="headerConSec">
+				<h2>CONTACT US</h2>
+				<p class="pHeaderSec">Completa nuestro formulario para poder ponerte en contacto con nosotros. No olvide rellenar todos los campos.</p>
+			</div>
+		</header>
+	</div>	
+	<div class="contenedorCon">
+		<div class="formCon">
+			<form id="formularioContacto">
+				<div class="containerInputContacto">
+					<input id="nombreContacto"  type="text" placeholder="Nombre" name="Nombre"><i id="iNombreBad" class="fas fa-times-circle"></i><i id="iNombreOk" class="fas fa-check-circle"></i><br><br>
+				</div>
+				<p class="msgErrorNombre">Solo se permiten letras y espacios. Este campo es obligatorio de completar</p>
+				<div class="containerInputContacto">
+					<input id="apellidoContacto" type="text"placeholder="Apellido" name="Apellido"><i id="iApellidoBad" class="fas fa-times-circle"></i><i id="iApellidoOk" class="fas fa-check-circle"></i><br><br>
+				</div>
+				<p class="msgErrorApellido">Solo se permiten letras y espacios. Este campo es obligatorio de completar</p>
+				<div class="containerInputContacto">
+					<input id="telContacto" type="tel" placeholder="Teléfono" name="Teléfono"><i id="iTelBad" class="fas fa-times-circle"></i><i id="iTelOk" class="fas fa-check-circle"></i><br><br>
+				</div>
+				<p class="msgErrorTelefono">Solo se permiten números y el teléfono debe contener entre 7 y 14 carácteres. Este campo es obligatorio de completar</p>
+				<div class="containerInputContacto">
+					<input id="emailContacto" class="emailCon" type="email" placeholder="Email *" name="Email"><i id="iEmlBad" class="fas fa-times-circle"></i><i id="iEmlOk" class="fas fa-check-circle"></i><br><br>
+				</div>
+				<p class="msgErrorEmail">El email no es válido, asegurese de introducir un dominio. Este campo es obligatorio de completar</p>
+				<div id="cambiarTextarea">
+					<textarea id="mensajeContacto" class="textareaCon" placeholder="Este campo debe estar rellenado." cols="60" rows="15" name="Textarea" required="required">
+					</textarea>
+				</div>
+				<div class="container__btnEnviarContacto">
+					<input id="btnEnviarContacto" class="sendCon" type="submit" value="Enviar">
+					<h2 class="errorEnviar"><i class="fas fa-exclamation-triangle iconError"></i>Asegurate de rellenar todos los campos y completarlos correctamente para contactarnos.</h2>
+				</div>
+ 			</form>
+		</div>
+		<div class="infoCon">
+			<span class="textCon">
+				<span class="textCon">Social:</span>
+				<a href="https://www.facebook.com" target=_blank ><i class="fab fa-facebook-square"></i></a>
+            	<a href="https://www.twitter.com" target=_blank ><i class="fab fa-twitter-square"></i></a>
+            	<a href="https://www.youtube.com" target=_blank ><i class="fab fa-youtube-square"></i></a>
+            	<a href="https://www.instagram.com" target=_blank ><i class="fab fa-instagram-square"></i></a>
+			</span>
+			<span class="textCon">
+				Teléfono: 0810-555-1996
+			</span>
+			<span class="textCon">
+				Email: diariogol@gol.com
+			</span>
+			<span>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.342306610412!2d-64.21074248485222!3d-31.404693681407988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329890498cce49%3A0x931191640ed556ec!2sSta%20Rosa%202000%2C%20X5003CEH%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1626122606294!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</span>
+			<span class="textCon">
+				Dirección: Santa Rosa 2000
+			</span>
+		</div>
+	</div>
+	<!--inicio footer-->
+	<div class="pie">
+		<footer class="footer">
+			<p class="text-footer">El Diario GOL. Fundado el 15 de marzo de 1904. Gol.com.ar. Lanzada el 21 de septiembre de 1996. Año 24. Edición N° 9107. Registro intelectual 56057581. Domicilio legal: Diario Gol 6080 – CP: X5008HKJ – Córdoba, Argentina.<br>Propietario: Diario Gol SA. Gerente General: Juan Tillard. Director: Carlos Hugo Jornet. Editor: Carlos Hugo Jornet.<br>&copy; 1996 - 2021 Todos los derechos reservados. Aviso legal.</p>
+            <div class="redes__posicion">
+				<p class="footer__p m-0">Seguinos</p>
+				<ul class="footer__ul">
+					<li><a href="https://www.facebook.com" target=_blank ><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="https://www.twitter.com" target=_blank ><i class="fab fa-twitter-square"></i></a></li>
+					<li><a href="https://www.youtube.com" target=_blank ><i class="fab fa-youtube-square"></i></a></li>
+					<li><a href="https://www.instagram.com" target=_blank ><i class="fab fa-instagram-square"></i></a></li>
+				</ul>	
+			</div>
+		</footer>
+	</div>
+	<!--cierre footer-->
+	<!-- Inicio scripts -->
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="/js/contacto.js"></script>
+	<!-- Fin scripts -->
+</body>
+</html>

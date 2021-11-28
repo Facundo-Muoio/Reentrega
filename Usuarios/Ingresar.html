@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio sesión</title>
+    <!-- Fuentes -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:wght@500;900&display=swap" rel="stylesheet">	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+	<!-- Fin fuentes -->
+	<!-- icono -->
+	<script src="https://kit.fontawesome.com/4dc73a2bed.js" crossorigin="anonymous"></script>
+	<!-- Fin icono -->
+	<!-- Inicio link -->
+	<link rel="stylesheet"	href="../css/style.css"> 
+	<!-- Fin link -->
+</head>
+<body class="fondoLogin">
+<div class="alignLogin">
+    <!-- Inicio section -->
+    <div class="inicioSesión">
+        <a id="logoInicioSesion" class="logo" href="../index.html"><h1>GOL</h1></a><br>
+        <div><h2 class="loginText">Iniciar sesión</h2></div><br>
+        <span>¿Aún no tiene cuenta? <a class="ingresar" href="registrarse.html">Registrarse</a><br><br>
+        Al iniciar sesión o al registrar la cuenta confirmo que he leído y acepto los términos y condiciones y la política de privacidad.
+        </span><br><br> 
+    <!--Inicio formulario-->
+    <form id="formInicio">   
+        <span class="viaCorreo"><b>o via correo electrónico</b></span><br><br>
+            <input type="email" autocomplete = "username" id="inputEmail" name="email" placeholder="E-mail *"><br><br>
+            <input type="password" autocomplete ="current-password" id="inputPsw" name="contraseña" placeholder="Contraseña *"><br>
+            <p class="inicioFallido"><i class="fas fa-exclamation-triangle"></i>Correo electrónico o contraseña incorrecta</p><br>
+            <div class="recordarOlvidar">
+                <div class="check">
+                    <input class="check" type="checkbox" name="recordarCuenta" value="1"><span class="recordar">Recordar cuenta </span>
+                </div>
+                <div class="olvideMobile">               
+                    <a class="olvide" href="restablecer.html">Olvidé mi contraseña</a>
+                </div>
+            </div><br><br>    
+            <input id="inicioSesion" type="submit" name="Enviar" value="INICIAR SESIÓN"><br><br>
+        <br><span>¿Querés acceder a todos nuestros contenidos sin límites? Suscribite</span>
+        <br><br><span><b>¿TENÉS CONSULTAS?</b></span> 
+        <br><br><span class="footer">Ingresá a nuestra sección de preguntas frecuentes<br>
+        O llamanos al <b>0810 555 1996</b> de lunes a viernes de 8 a 17.</span>
+    </form>
+    </div>
+    <!--Fin formualrio-->
+    <!-- Fin section -->
+    <!-- Inicio scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/mi-js.js"></script>
+    <!-- Fin scripts -->
+</body>
+</html>
+</div>
