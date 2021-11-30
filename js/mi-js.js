@@ -249,7 +249,7 @@ cerrarSesion = checkLog[0].email
         </button>
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
           <li><h3 class="dropdown-header">Bienvenido !</h3></li>
-          <li><a class="dropdown-item" href="../../../datos/deseos.html" href="datos/deseos.html">Lista de deseos</a></li> 
+          <li id="disableListWishes"><a class="dropdown-item"  href="datos/deseos.html">Lista de deseos</a></li> 
           <li><hr class="dropdown-divider"></li>
           <li><button id="btnLogOut" class="dropdown-item"><i class="fas fa-sign-out-alt"></i>Cerrar sesión</button></li>
         </ul>
