@@ -101,19 +101,15 @@
 
 
     // Utilizamos jquery para tomar el elemento textarea de nuestro imput y aplicarle el evento change. Mediante este evento podemos capturar lo que el usuario ingresa en nuestro area de texto
-    // y almacenar esto en la variblae textArea la cual nos valemos para ejecutar un if. Este if evalua si la variable textArea esta vacia, en caso de true ejecuta un document.getElementById("cambiarTextarea").innerHTML que nos permite capturar
-    // el div padre del text area elemento y modificar su cotenido para agregar un nuevo textarea con estilo en los bordes del mismo, indicando que no se puede dejar vacío este campo. Finalmente tomamos la propiedad textarea del objeto campos y cambiamos su valor a false
-    // de este modo evitamos que el usuario pueda enviar el form hasta que complete esta sección. Ahora en caso de que nuestro if de false removemos la clase que muestra los estilos de error y cambiamos a true el valor de la propiedad textarea de campos así esta no impide enviar 
-    // el form
+    // y almacenar esto en la variblae textArea la cual nos valemos para ejecutar un if. Este if evalua si la variable textArea esta vacia, en caso de true ejecuta 
+    // la propiedad textarea del objeto campos y cambiamos su valor a false de este modo evitamos que el usuario pueda enviar el form hasta que complete esta sección. Ahora en caso de que nuestro if de false removemos la clase que muestra los estilos de error y cambiamos a true el valor de la propiedad textarea de campos así esta no impide enviar 
+    // el form.
     $("#mensajeContacto").change((e) => {
         e.preventDefault()
         textArea =  e.target.value;
         if(textArea == ""){
-            document.getElementById("cambiarTextarea").innerHTML = `<textarea id="mensajeContacto" class="emptyTextArea" cols="60" rows="15" name="Textarea">
-            </textarea>`
             campos.textarea = false
         }else{
-            document.getElementById("mensajeContacto").classList.remove("emptyTextArea");
             campos.textarea = true
         }
     } );

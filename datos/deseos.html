@@ -8,7 +8,13 @@
     <!-- Fuentes -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:wght@500;900&display=swap" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <style>
+		@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+	</style>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&family=Ubuntu:wght@700&display=swap');
+	</style>	
 	<!-- Fin fuentes -->
     <!-- icono -->
 	<script src="https://kit.fontawesome.com/4dc73a2bed.js" crossorigin="anonymous"></script>
@@ -23,11 +29,27 @@
         <header>
             <div class="headerEst">
                 <!--Logo-->
-                <a href="../index.html"><h1>GOL</h1></a>
+                <a href="../index.html"><h1 class="logoDeseos">GOL</h1></a>
                 <!--fin logo-->
            </div>
         <!-- fin header -->
         </header>
+    <h2 class="h1Deseos">¡Felicidades, por ser unos de nuestros primeros 1000 usuarios podes pedir 5 de los siguientes libros como deseos. Alguno de ellos te sera entregado como regalo por formar parte de nuestros primeros miembros!</h1>
+    <div class="containerSearch">
+        <h2>Buscador de artículos</h2><input placeholder="Buscar el libro por título o categoría" id="inputSearch" type="text"><button id="btnSearch">Buscar</button>
+    </div>
+    <div id="containerCards"></div>
+    <table class="tableWishes">
+		<tr class="trWishes">
+            <th class="thWishes"></th>
+			<th class="thWishes">Libro</th>
+			<th class="thWishes">Autor</th>
+			<th class="thWishes">Quitar de lista</th>
+		</tr>
+    </table>
+   <div class="containerTotalAndBtn">
+        <h2 class="totalListWishes">TOTAL : 0</h2><button class="btnWishes">PEDIR DESEOS</button>
+   </div>
         
     <!--inicio footer-->
 	<div class="pie">
@@ -45,5 +67,8 @@
 		</footer>
 	</div>
 	<!--cierre footer-->
+    <!-- scripts -->
+     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/deseos.js"></script>
 </body>
-</html
+</html>

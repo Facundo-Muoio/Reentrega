@@ -2850,8 +2850,183 @@
         border-bottom: 3px solid green !important;
         color: green !important;
       }
+
+    .containerSearch{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 30px;
+      width: 100vw;
+    }
+
+    .containerSearch h2{
+      font-size: 30px;
+    }
+
+    #inputSearch{
+      border: 1px solid black;
+      margin-left: 50px;
+      border-radius: 2px;
+      width: 500px;
+    }
+
+    #inputSearch:hover{
+      border: 1px solid black;
+      border-radius: 2px;
+    }
+
+    [placeholder*="Buscar el libro por título o categoría"]{
+      padding-left: 12px;
+    }
+
+    #btnSearch{
+      width: 100px;
+      margin-left: 12px;
+    }
       
-  
+    #btnSearch:hover{
+      border: 1px solid black;
+    }
+
+    #containerCards{
+      height: auto;
+      width: 80vw;
+      margin: 30px auto;
+    }
+
+    .h1Deseos{
+      text-align: center;
+      margin-top: 30px;
+      font-size: 32px;
+      font-family: Ubuntu;
+      color:#efb810;
+    }
+
+    #containerCards{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 90px;
+    }
+
+    .cardItem{
+      width: 250px;
+      height: 400px;
+      border-radius: 4px;
+      border: 1px solid #efefef;
+      box-shadow: 2px 4px 6px #efefef;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 12px;
+    }
+
+    .cardItem{
+      text-align: center;
+      transition: 0.4s;
+    }
+
+    .cardItem:hover{
+      box-shadow: 6px 10px 12px #efefef;
+      transform: scale(1.1,1.1);
+    }
+
+    .card__img{
+      width: 198px;
+      height: 280px;
+    }
+
+    .card__btn{
+      border-radius: 10px;
+      width:100px;
+    }
+
+    .tableWishes{
+      width: 80vw;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+    
+    .tableWishes, .tdWishes{
+      border-bottom: 1px solid #efefef;
+    }
+
+    .tdWishes, .thWishes{
+      text-align: center;
+      padding-left: 10px;
+    }
+
+    .thWishes{
+      font-size: 24px;
+      font-family: Roboto,arial,sans-serif;
+    }
+    .tdWishes{
+      font-size: 18px;
+      font-family: Ubuntu,arial,sans-serif;
+    }
+
+    .tdWishes img{
+      width: 50px;
+      height: 80px;
+    }
+
+    .trWishes:nth-child(even) {background-color: #f2f2f2;}
+    
+    .trWishes:hover{
+      background-color: #d3d1d1;
+    }
+
+    .fa-window-close{
+      color: red;
+      font-size: 24px;
+    }
+
+    .btnRemoveItem{
+      max-width: 24px;
+      max-height: 24px;
+      border: none;
+      padding: 0px;
+    }
+
+    .btnRemoveItem:hover{
+      cursor: pointer;
+      border: none;
+    }
+
+    .containerTotalAndBtn{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 80vw;
+      margin: 20px auto;
+    }
+
+    .btnWishes{
+      width: 15vw;
+      font-size: 24px;
+      font-family: Roboto Slab, arial,serif;
+      border-radius: 12px;
+      border:1px solid black;
+    }
+
+    .itemNotFound{
+      height: 50vh;
+      font-size: 30px;
+      color: #696969;
+    }
+
+    .succesWishes{
+      height: 400px;
+      font-size: 24px;
+      text-align: center;
+      margin-top:400px;
+    }
+    .bg-body-deseoCumplido{
+      background-image: url(../img-publicidades/abstract.jpg); 
+    }
   @media only screen and (max-width: 768px) {
     .main__size {
       width: 100vw; }
